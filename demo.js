@@ -49,18 +49,18 @@ for (let i = COLOR_TABLE_OFFSET; i < PIXCEL_ARRAY_OFFSET; i++) {
 console.log(parsedBitmap.width);
 
 
-// for (let i = 37; i < 38; i++) {
-//     // let colorx = buffer.readInt32LE(COLOR_TABLE_OFFSET + i*4);
-//     buffer.writeInt32LE(0xffffff, COLOR_TABLE_OFFSET + i*4);
-//     // console.log(colorx.toString(16));
-// }
+for (let i = 37; i < 38; i++) {
+    // let colorx = buffer.readInt32LE(COLOR_TABLE_OFFSET + i*4);
+    buffer.writeInt32LE(0xffffff, COLOR_TABLE_OFFSET + i*4);
+    // console.log(colorx.toString(16));
+}
 
 
-// for (let i = 50; i < parsedBitmap.width*32; i++) {
-//     if (i % 4 === 0 ){
-//         buffer.writeInt32LE(143, PIXCEL_ARRAY_OFFSET + i*4);
-//     }    
-//  }
+for (let i = 50; i < parsedBitmap.width*32; i++) {
+    if (i % 4 === 0 ){
+        buffer.writeInt32LE(143, PIXCEL_ARRAY_OFFSET + i*4);
+    }    
+ }
 
 let other = '73';
   for (let i = 12252; i < 12327; i++) {

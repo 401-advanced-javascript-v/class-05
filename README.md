@@ -33,20 +33,20 @@
 index.js
 
 ##### Exported Values and Methods
-```{transformWithPromises(file, operation) -> new transformed .bmp file}```
+```{transform(file, operation) -> new transformed .bmp file}```
 Passes in commands from the CLI to read a .bmp file and write a new, transformed .bmp file. Uses bitmap.js to construct a new instance, which in turn uses modules from the transforms/ folder to edit the bitmap files buffer and create a new file with that buffer.
 
-##### lib/error-handler.js
-
-Exported Values and Methods
-```{usefulErrMessage(err, file, operation) -> print-out on console}```
-Creates and prints a useful error message to the user if an invalid CLI command is used. The message printed-out is unique to the entry error. The end of every error message includes the exact error found.
 
 ##### transforms/
 
 Each transform method is exported to bitmap.js to create a new file named <old-file-name>.<operation>.bmp in the transforms/ folder.
 
 Exported Values and Methods (for each module)
+
+###### headbond
+###### injail
+###### whitebrow
+
 
 ### Setup
 #### `.env` requirements
