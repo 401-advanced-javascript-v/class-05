@@ -1,0 +1,26 @@
+{
+  "name": "class-05",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) Project ================================================= <!-- LINKS --> <!-- Replace the link for each in brackets below --> <!-- PR (working into submission) --> <!-- [PR]: http://xyz.com --> <!-- travis build --> <!-- [Travis]: https://www.travis-ci.com/YOUR_ORG_NAME/REPO_NAME --> <!-- back-end --> <!-- [3]: http://xyz.com --> <!-- front-end --> <!-- [4]: http://xyz.com --> <!-- swagger --> <!-- [5]: http://xyz.com --> <!-- jsdoc--> <!-- [jsdoc]: heroku-link/docs  --> ## Bitmap ### Author: Vanessa ### Links and Resources * [PR][1] * [travis][2] <!-- (when applicable) --> * [back-end][3] <!-- (when applicable) --> * [front-end][4] #### Documentation <!-- API assignments only --> <!-- * [swagger][5] --> <!-- (All assignments) --> * [jsdoc][6] ### Modules #### `modulename.js` index.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage --verbose --testPathIgnorePatterns code-challenges/301/",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-v/class-05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-v/class-05/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-v/class-05#readme"
+}
